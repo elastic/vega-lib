@@ -1,6 +1,6 @@
 {
-  "name": "vega-lib",
-  "version": "3.3.1",
+  "name": "@elastic/vega-lib",
+  "version": "3.3.1-kibana",
   "description": "Include Vega in projeccts using minimal dependencies.",
   "keywords": [
     "vega",
@@ -62,12 +62,12 @@
     "vega-crossfilter": "2",
     "vega-dataflow": "3",
     "vega-encode": "2",
-    "vega-expression": "^2.3",
+    "vega-expression": "npm:@elastic/vega-expression@2.4.0-kibana",
     "vega-force": "2",
     "vega-geo": "^2.2",
     "vega-hierarchy": "^2.1",
     "vega-loader": "2",
-    "vega-parser": "^2.5",
+    "vega-parser": "npm:@elastic/vega-parser@2.7.0-kibana",
     "vega-projection": "1",
     "vega-runtime": "2",
     "vega-scale": "^2.1",
@@ -76,7 +76,7 @@
     "vega-transforms": "^1.2",
     "vega-typings": "*",
     "vega-util": "^1.7",
-    "vega-view": "^2.2",
+    "vega-view": "npm:@elastic/vega-view@2.3.2-kibana",
     "vega-view-transforms": "^1.2",
     "vega-voronoi": "2",
     "vega-wordcloud": "^2.1"
